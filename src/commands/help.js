@@ -14,13 +14,38 @@ let attachments = [
     title: 'Rulesbot will help you find the rules when you need them.',
     color: '#2FA44F',
     text: '`/rules 4thdown` returns the 4thdown rules.',
-	text: '`/rules playbook` returns the playbook rules.',
-	text: '`/rules playcalling` returns the playcalling rules.',
-	text: '`/rules positions` returns the positions rules.',
-	text: '`/rules running` returns the running rules.',
+    mrkdwn_in: ['text']
+  },
+  {
+    title: '',
+    color: '#2FA44F',    
+	text: '`/rules playbook` returns the playbook rules.',	
+    mrkdwn_in: ['text']
+  },
+ {
+    title: '',
+    color: '#2FA44F',    
+	text: '`/rules playcalling` returns the playcalling rules.',	
+    mrkdwn_in: ['text']
+  },
+{
+    title: '',
+    color: '#2FA44F',    
+	text: '`/rules running` returns the running rules.',	
+    mrkdwn_in: ['text']
+  },
+{
+    title: '',
+    color: '#2FA44F',    
 	text: '`/rules uniforms` returns the uniforms rules.',	
     mrkdwn_in: ['text']
-  } 
+  },
+{
+    title: '',
+    color: '#2FA44F',    
+	text: '`/rules positions` returns the positions rules.',	
+    mrkdwn_in: ['text']
+  }   
 ]
 
 const handler = (payload, res) => {
