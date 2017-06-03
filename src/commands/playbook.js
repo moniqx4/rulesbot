@@ -13,7 +13,7 @@ let attachments = [
   {
     title: 'Playbook Rules',
     color: '#2FA44F',
-    text: 'NO Custom Playbooks - All coaches are expected to use their team''s appointed base offense and defense playbooks. Unless you have changed coaches and have declared new playbook to staff prior to using it.\n',
+    text: 'NO Custom Playbooks. All coaches are expected to use their teams appointed base offense and defense playbooks. Unless you have changed coaches and have declared new playbook to staff prior to using it.\n',
     mrkdwn_in: ['text']
   },
   {
