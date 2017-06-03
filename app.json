@@ -1,6 +1,6 @@
 {
   "name": "Rulesbot",
-  "description": "Rukesbot is GitHub's trending open-source page, reincarnated as a Slack bot",
+  "description": "Rulesbot is GitHub's trending open-source page, reincarnated as a Slack bot",
   "repository": "https://github.com/moniqx4/rulesbot",
   "logo": "",
   "success_url": "/",
@@ -8,8 +8,8 @@
     "HEROKU_APP_NAME": {
       "required": true
     },
-    "RULEBOT_COMMAND_TOKEN": {
-      "description": "Slash command token, for the rulebot command endpoint",
+    "RULESBOT_COMMAND_TOKEN": {
+      "description": "Slash command token, for the rulesbot command endpoint",
       "required": true
     },
     "SLACK_TOKEN": {
