@@ -11,16 +11,11 @@ const msgDefaults = {
 
 let attachments = [
   {
-    title: 'Rulesbot will help you find the rules when you need them.',
+    title: 'Uniforms',
     color: '#2FA44F',
-    text: '`/rules 4thdown` returns the 4thdown rules.',
-	text: '`/rules playbook` returns the playbook rules.',
-	text: '`/rules playcalling` returns the playcalling rules.',
-	text: '`/rules positions` returns the positions rules.',
-	text: '`/rules running` returns the running rules.',
-	text: '`/rules uniforms` returns the uniforms rules.',	
+    text: 'Home team chooses jerseys and visiting follows suit. One team must wear light and the other must wear dark. If using alternate jerseys, notify your opponent.  \n',
     mrkdwn_in: ['text']
-  } 
+  }
 ]
 
 const handler = (payload, res) => {
@@ -34,4 +29,4 @@ const handler = (payload, res) => {
   return
 }
 
-module.exports = { pattern: /help/ig, handler: handler }
+module.exports = { pattern: /uniforms/ig, handler: handler }

@@ -11,16 +11,17 @@ const msgDefaults = {
 
 let attachments = [
   {
-    title: 'Rulesbot will help you find the rules when you need them.',
+    title: 'Running',
     color: '#2FA44F',
-    text: '`/rules 4thdown` returns the 4thdown rules.',
-	text: '`/rules playbook` returns the playbook rules.',
-	text: '`/rules playcalling` returns the playcalling rules.',
-	text: '`/rules positions` returns the positions rules.',
-	text: '`/rules running` returns the running rules.',
-	text: '`/rules uniforms` returns the uniforms rules.',	
+    text: 'Required to run a minimum of 18 times per game from the RB/FB position.This does not include QB or WR run plays\n',
     mrkdwn_in: ['text']
-  } 
+  },
+  {
+    title: 'Running II',
+    color: '#E3E4E6',
+    text: 'Run in a realistic sim mannner. Running directly straight across left or right is not realistic. Not done in real life, not done here.\n',
+    mrkdwn_in: ['text']
+  }
 ]
 
 const handler = (payload, res) => {
@@ -34,4 +35,4 @@ const handler = (payload, res) => {
   return
 }
 
-module.exports = { pattern: /help/ig, handler: handler }
+module.exports = { pattern: /running/ig, handler: handler }
