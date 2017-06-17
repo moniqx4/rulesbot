@@ -11,17 +11,11 @@ const msgDefaults = {
 
 let attachments = [
   {
-    title: 'Running',
+    title: '2 Point Conversion Rule',
     color: '#2FA44F',
-    text: 'Required to run a minimum of 18 times per game from the RB/FB position.This does not include QB or WR run plays.\n',
+    text: 'You may attempt a maximum of TWO 2-point conversions per game.  \n',
     mrkdwn_in: ['text']
-  },
-  {
-    title: 'Running II',
-    color: '#E3E4E6',
-    text: 'Run in a realistic sim mannner. Running directly straight across left or right is not realistic. Not done in real life, not done here.\n',
-    mrkdwn_in: ['text']
-  }
+  } 
 ]
 
 const handler = (payload, res) => {
@@ -35,4 +29,4 @@ const handler = (payload, res) => {
   return
 }
 
-module.exports = { pattern: /running/ig, handler: handler }
+module.exports = { pattern: /2point/ig, handler: handler }

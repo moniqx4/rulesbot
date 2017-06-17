@@ -11,15 +11,15 @@ const msgDefaults = {
 
 let attachments = [
   {
-    title: 'Running',
+    title: 'Audibles',
     color: '#2FA44F',
-    text: 'Required to run a minimum of 18 times per game from the RB/FB position.This does not include QB or WR run plays.\n',
+    text: 'The offense is limited to two Audibles per play. This includes flipping play, motion, hot routes, and line audibles.\n',
     mrkdwn_in: ['text']
   },
   {
-    title: 'Running II',
-    color: '#E3E4E6',
-    text: 'Run in a realistic sim mannner. Running directly straight across left or right is not realistic. Not done in real life, not done here.\n',
+    title: 'Audibles II',
+    color: '#2FA44F',
+    text: 'If you audible or flip play, do not quick snap directly afterwards. In the NFL it takes a second for the audible to register with the outside receivers, your opponent should have the same time allowed.\n',
     mrkdwn_in: ['text']
   }
 ]
@@ -35,4 +35,4 @@ const handler = (payload, res) => {
   return
 }
 
-module.exports = { pattern: /running/ig, handler: handler }
+module.exports = { pattern: /audibles/ig, handler: handler }

@@ -11,15 +11,21 @@ const msgDefaults = {
 
 let attachments = [
   {
-    title: 'Running',
+    title: 'Against CPU Gameplay Rule I',
     color: '#2FA44F',
-    text: 'Required to run a minimum of 18 times per game from the RB/FB position.This does not include QB or WR run plays.\n',
+    text: 'If game is against CPU, required to play full game offense and defense.  \n',
     mrkdwn_in: ['text']
   },
   {
-    title: 'Running II',
+    title: 'Against CPU Gameplay Rule II',
     color: '#E3E4E6',
-    text: 'Run in a realistic sim mannner. Running directly straight across left or right is not realistic. Not done in real life, not done here.\n',
+    text: 'Game must be broadcasted, period. Post to regular chat when game is being as you would any other game. \n',
+    mrkdwn_in: ['text']
+  },  
+  {
+    title: 'Against CPU Gameplay Rule III',
+    color: '#E3E4E6',
+    text: 'No running up score against CPU. \n',
     mrkdwn_in: ['text']
   }
 ]
@@ -35,4 +41,4 @@ const handler = (payload, res) => {
   return
 }
 
-module.exports = { pattern: /running/ig, handler: handler }
+module.exports = { pattern: /cpugame/ig, handler: handler }

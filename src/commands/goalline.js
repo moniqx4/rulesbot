@@ -11,15 +11,9 @@ const msgDefaults = {
 
 let attachments = [
   {
-    title: 'Running',
+    title: 'Goal Line Formation',
     color: '#2FA44F',
-    text: 'Required to run a minimum of 18 times per game from the RB/FB position.This does not include QB or WR run plays.\n',
-    mrkdwn_in: ['text']
-  },
-  {
-    title: 'Running II',
-    color: '#E3E4E6',
-    text: 'Run in a realistic sim mannner. Running directly straight across left or right is not realistic. Not done in real life, not done here.\n',
+    text: 'The use of the goal line formation is reserved for situations where the user is inside either 10 yard line or if the To Go yardage is in inches.\n',
     mrkdwn_in: ['text']
   }
 ]
@@ -35,4 +29,4 @@ const handler = (payload, res) => {
   return
 }
 
-module.exports = { pattern: /running/ig, handler: handler }
+module.exports = { pattern: /goalline/ig, handler: handler }

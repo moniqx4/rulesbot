@@ -11,15 +11,15 @@ const msgDefaults = {
 
 let attachments = [
   {
-    title: 'Running',
+    title: 'No Huddle rules',
     color: '#2FA44F',
-    text: 'Required to run a minimum of 18 times per game from the RB/FB position.This does not include QB or WR run plays.\n',
+    text: 'You can "no huddle" at any time in game.\n',
     mrkdwn_in: ['text']
   },
   {
-    title: 'Running II',
-    color: '#E3E4E6',
-    text: 'Run in a realistic sim mannner. Running directly straight across left or right is not realistic. Not done in real life, not done here.\n',
+    title: 'No Huddle II rules',
+    color: '#2FA44F',
+    text: 'There is a maximum of 3 no huddles in a row then you must return to huddle, no matter the game situation.\n',
     mrkdwn_in: ['text']
   }
 ]
@@ -35,4 +35,4 @@ const handler = (payload, res) => {
   return
 }
 
-module.exports = { pattern: /running/ig, handler: handler }
+module.exports = { pattern: /nohuddle/ig, handler: handler }
