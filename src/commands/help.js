@@ -45,7 +45,45 @@ let attachments = [
     color: '#2FA44F',    
 	text: '`/rules positions` returns the positions rules.',	
     mrkdwn_in: ['text']
-  }   
+  },
+{
+    title: '',
+    color: '#2FA44F',    
+	text: '`/rules audibles` returns the audible rules.',	
+    mrkdwn_in: ['text']
+  },
+  {
+    title: '',
+    color: '#2FA44F',    
+	text: '`/rules disconnect` returns the rule pertaining to disconnected games.',	
+    mrkdwn_in: ['text']
+  },
+  {
+    title: '',
+    color: '#2FA44F',    
+	text: '`/rules nohuddle` returns the rule pertaining to using nohuddle during a game.',	
+    mrkdwn_in: ['text']
+  },
+  {
+    title: '',
+    color: '#2FA44F',    
+	text: '`/rules goalline` returns the rules for goalline situations .',	
+    mrkdwn_in: ['text']
+  },
+   {
+    title: '',
+    color: '#2FA44F',    
+	text: '`/rules cpugame` returns the rule for when you have to play the CPU.',	
+    mrkdwn_in: ['text']
+  },
+   {
+    title: '',
+    color: '#2FA44F',    
+	text: '`/rules trades` returns the rules for making trades.',	
+    mrkdwn_in: ['text']
+  }
+
+       
 ]
 
 const handler = (payload, res) => {
