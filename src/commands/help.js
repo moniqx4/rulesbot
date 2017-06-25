@@ -81,9 +81,7 @@ let attachments = [
     color: '#2FA44F',    
 	text: '`/rules trades` returns the rules for making trades.',	
     mrkdwn_in: ['text']
-  }
-
-       
+  }       
 ]
 
 const handler = (payload, res) => {
