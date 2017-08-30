@@ -19,12 +19,12 @@ let attachments = [
   {
     title: 'Against CPU Gameplay Rule II',
     color: '#E3E4E6',
-    text: 'Game must be broadcasted, period. Post to regular chat when game is being as you would any other game. \n',
+    text: 'Game must be broadcast, period. Post to regular chat when game is being as you would any other game. \n',
     mrkdwn_in: ['text']
   },  
   {
     title: 'Against CPU Gameplay Rule III',
-    color: '#E3E4E6',
+    color: '#2FA44F',
     text: 'No running up score against CPU. \n',
     mrkdwn_in: ['text']
   }

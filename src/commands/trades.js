@@ -13,7 +13,7 @@ let attachments = [
   {
     title: 'Trade Rule I',
     color: '#2FA44F',
-    text: 'All trades MUST be submitted to Division leader and approved BEFORE you can make trade.  \n',
+    text: 'All trades MUST be submitted to Trade Committee and approved BEFORE you can make trade.  \n',
     mrkdwn_in: ['text']
   },
   {

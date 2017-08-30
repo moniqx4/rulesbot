@@ -13,11 +13,17 @@ let attachments = [
   {
     title: 'Playbook Rules',
     color: '#2FA44F',
-    text: 'NO Custom Playbooks. All coaches are expected to use their teams appointed base offense and defense playbooks. Unless you have changed coaches and have declared new playbook to staff prior to using it.\n',
+    text: 'NO Custom Playbooks. All coaches are expected to use their teams appointed base offense and defense playbooks for 1st season.\n',
     mrkdwn_in: ['text']
   },
   {
     title: 'Playbook Rules II',
+    color: '#E3E4E6',
+    text: 'After 1st season, you may drop your playbook to pickup a generic playbook. Or pick one not in use, contact Division Rep for more details.\n',
+    mrkdwn_in: ['text']
+  }
+  {
+    title: 'Playbook Rules III',
     color: '#E3E4E6',
     text: 'In the pre-game screen, show the opponent your playbooks before clicking ready to start.\n',
     mrkdwn_in: ['text']

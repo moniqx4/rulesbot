@@ -13,7 +13,7 @@ let attachments = [
   {
     title: 'Disconnect Rule I',
     color: '#2FA44F',
-    text: 'All disconnected games will be brought to the Division Leaders attention with quarter, time, score and who was winning before the game can be replayed legally.  \n',
+    text: 'All disconnected games will be brought to the Division Leaders or Commissioner\'s attention with quarter, time, score and who was winning before the game can be replayed legally.  \n',
     mrkdwn_in: ['text']
   },
   {
@@ -24,7 +24,7 @@ let attachments = [
   },  
   {
     title: 'Disconnect Rule III',
-    color: '#E3E4E6',
+    color: '#2FA44F',
     text: 'Disconnect after the half but before the 4th, if a team is up by more than 2 scores, has option to take force win \n',
     mrkdwn_in: ['text']
   },

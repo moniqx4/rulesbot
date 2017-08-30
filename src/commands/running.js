@@ -19,7 +19,7 @@ let attachments = [
   {
     title: 'Running II',
     color: '#E3E4E6',
-    text: 'Run in a realistic sim mannner. Running directly straight across left or right is not realistic. Not done in real life, not done here.\n',
+    text: 'Run in a realistic sim manner. Running directly straight across left or right is not realistic. Not done in real life, not done here.\n',
     mrkdwn_in: ['text']
   }
 ]

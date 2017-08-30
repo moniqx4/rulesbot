@@ -19,13 +19,13 @@ let attachments = [
   {
     title: 'Position Rule II',
     color: '#E3E4E6',
-    text: 'HBs can not be subsituted in a FB or TE position.\n',
+    text: 'HBs can not be substituted in a FB or TE position.\n',
     mrkdwn_in: ['text']
   },  
   {
     title: 'Position Rule III',
     color: '#E3E4E6',
-    text: 'FB can play FB-RB-TE. HB can play HB-WR. TE can play TE-FB. WR can play WR-HB. T can play T-TE\n',
+    text: 'FB can play FB-RB-TE. HB can play HB-WR. TE can play TE-FB. WR can play WR-HB.\n',
     mrkdwn_in: ['text']
   }
 ]
