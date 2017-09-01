@@ -21,7 +21,7 @@ let attachments = [
     color: '#E3E4E6',
     text: 'After 1st season, you may drop your playbook to pickup a generic playbook. Or pick one not in use, contact Division Rep for more details.\n',
     mrkdwn_in: ['text']
-  }
+  },
   {
     title: 'Playbook Rules III',
     color: '#E3E4E6',
