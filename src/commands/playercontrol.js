@@ -11,28 +11,21 @@ const msgDefaults = {
 
 let attachments = [
   {
-    title: 'Trade Rule I',
+    title: 'Playercontrol I',
     color: '#2FA44F',
-    text: 'All trades MUST be submitted to Trade Committee and approved BEFORE you can make trade.  \n',
+    text: 'Usering the DL players, is only allowed at max once every 4 plays, or once every set of downs. \n',
     mrkdwn_in: ['text']
   },
   {
-    title: 'Trade Rule II',
+    title: 'Playercontrol II',
     color: '#E3E4E6',
-    text: 'There is a max of 2 trades per season for veterans. \n',
+    text: 'When playing offense, you must play as the QB to start play. \n',
     mrkdwn_in: ['text']
-  },
+  },  
   {
-    title: 'Trade Rule III',
+    title: 'Playercontrol III',
     color: '#E3E4E6',
-    text: 'New coaches can NOT propose or accept trades their 1st season in MSPA. \n',
-    mrkdwn_in: ['text']
-  },
-  ,
-  {
-    title: 'Trade Rule IV',
-    color: '#E3E4E6',
-    text: 'First season, no trades are allowed period. \n',
+    text: 'Linebackers can not be manually moved to the DL. If the defense that is called starts them there, or if audible to show blitz is used, that is fine. \n',
     mrkdwn_in: ['text']
   }
 ]
@@ -48,4 +41,4 @@ const handler = (payload, res) => {
   return
 }
 
-module.exports = { pattern: /trades/ig, handler: handler }
+module.exports = { pattern: /playercontrol/ig, handler: handler }

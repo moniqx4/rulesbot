@@ -81,7 +81,19 @@ let attachments = [
     color: '#2FA44F',    
 	text: '`/rules trades` returns the rules for making trades.',	
     mrkdwn_in: ['text']
-  }       
+  },
+ {
+    title: '',
+    color: '#2FA44F',    
+	text: '`/rules playercontrol` returns the rules for usering players.',	
+    mrkdwn_in: ['text']
+  },
+{
+    title: '',
+    color: '#2FA44F',    
+	text: '`/rules interception` returns the rules for limits on number of interceptions for QB.',	
+    mrkdwn_in: ['text']
+  }    
 ]
 
 const handler = (payload, res) => {

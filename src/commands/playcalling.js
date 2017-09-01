@@ -21,6 +21,18 @@ let attachments = [
     color: '#E3E4E6',
     text: 'Defensive plays should be called that match with the offensive personnel and makes real football sense. For example, should not be calling Quarters defense when opponent is in redzone. \n',
     mrkdwn_in: ['text']
+  },
+   {
+    title: 'Playcalling III NEW',
+    color: '#E3E4E6',
+    text: 'Limit 2 to the number of times the same offensive play can be called during a game and not more than once in a quarter. \n',
+    mrkdwn_in: ['text']
+  },
+  {
+    title: 'Playcalling IV NEW',
+    color: '#E3E4E6',
+    text: 'Defensive playcalling, coaches should be calling a 30/70 ratio of either man or zone. \n',
+    mrkdwn_in: ['text']
   }
 ]
 
