@@ -93,6 +93,12 @@ let attachments = [
     color: '#2FA44F',    
 	text: '`/rules interception` returns the rules for limits on number of interceptions for QB.',	
     mrkdwn_in: ['text']
+  },
+{
+    title: '',
+    color: '#2FA44F',    
+	text: '`/rules psq` returns the rules pertaining to practice squad.',	
+    mrkdwn_in: ['text']
   }    
 ]
 
