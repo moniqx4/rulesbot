@@ -35,4 +35,4 @@ const handler = (payload, res) => {
   return
 }
 
-module.exports = { pattern: /interceptions/ig, handler: handler }
+module.exports = { pattern: /interception/ig, handler: handler }
