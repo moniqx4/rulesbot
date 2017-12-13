@@ -99,7 +99,13 @@ let attachments = [
     color: '#2FA44F',    
 	text: '`/rules psq` returns the rules pertaining to practice squad.',	
     mrkdwn_in: ['text']
-  }    
+  },
+  {
+    title: '',
+    color: '#2FA44F',    
+  text: '`/rules special` returns the rules pertaining to special team plays.', 
+    mrkdwn_in: ['text']
+  }        
 ]
 
 const handler = (payload, res) => {
