@@ -13,7 +13,7 @@ let attachments = [
   {
     title: 'Audibles',
     color: '#2FA44F',
-    text: 'The offense is limited to two Audibles per play. This includes flipping play, motion, hot routes, and line audibles.\n',
+    text: 'Each Hot Route and player motion movement is counted as one. Blocking assignments and flipping of a play (no more than once during a single play) is not counted.\n',
     mrkdwn_in: ['text']
   },
   {
