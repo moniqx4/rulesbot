@@ -13,13 +13,13 @@ let attachments = [
   {
     title: 'Audibles',
     color: '#2FA44F',
-    text: 'Each Hot Route and player motion movement is counted as one. Blocking assignments and flipping of a play (no more than once during a single play) is not counted.\n',
+    text: 'Each Hot Route and player motion movement is counted as one. Blocking assignments and flipping of a play (no more than once during a single play) are not counted.\n',
     mrkdwn_in: ['text']
   },
   {
     title: 'Audibles II',
     color: '#2FA44F',
-    text: 'If you audible or flip play, do not quick snap directly afterwards. In the NFL it takes a second for the audible to register with the outside receivers, your opponent should have the same time allowed.\n',
+    text: 'A maximum of 2 combined changes allowed  per play consisting of Play Audibles, Hot Routes and Motions.\n',
     mrkdwn_in: ['text']
   }
 ]
