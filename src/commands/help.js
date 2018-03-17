@@ -105,7 +105,30 @@ let attachments = [
     color: '#2FA44F',    
   text: '`/rules special` returns the rules pertaining to special team plays.', 
     mrkdwn_in: ['text']
-  }        
+  },
+  {
+    title: '',
+    color: '#2FA44F',    
+  text: '`/rules offtopdollar` returns the top dollar minimum to pay for 90+ players QB,HB,WR,TE,FB'., 
+    mrkdwn_in: ['text']
+  },
+  {
+    title: '',
+    color: '#2FA44F',    
+  text: '`/rules offltopdollar` returns the top dollar minimum to pay for 90+ players Tackles, Guards, and Centers.', 
+    mrkdwn_in: ['text']
+  },
+   {
+    title: '',
+    color: '#2FA44F',    
+  text: '`/rules deftopdollar` returns the top dollar minimum to pay for 90+ players CB,LB,DE,FS,SS.', 
+    mrkdwn_in: ['text']
+  },
+    title: '',
+    color: '#2FA44F',    
+  text: '`/rules spctopdollar` returns the top dollar minimum to pay for 90+ players Punters and Kickers.', 
+    mrkdwn_in: ['text']
+  }                         
 ]
 
 const handler = (payload, res) => {
