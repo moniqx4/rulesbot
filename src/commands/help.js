@@ -124,6 +124,7 @@ let attachments = [
   text: '`/rules deftopdollar` returns the top dollar minimum to pay for 90+ players CB,LB,DE,FS,SS.', 
     mrkdwn_in: ['text']
   },
+  {
     title: '',
     color: '#2FA44F',    
   text: '`/rules spctopdollar` returns the top dollar minimum to pay for 90+ players Punters and Kickers.', 
