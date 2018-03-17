@@ -109,7 +109,7 @@ let attachments = [
   {
     title: '',
     color: '#2FA44F',    
-  text: '`/rules offtopdollar` returns the top dollar minimum to pay for 90+ players QB,HB,WR,TE,FB'., 
+  text: '`/rules offtopdollar` returns the top dollar minimum to pay for 90+ players QB,HB,WR,TE,FB.', 
     mrkdwn_in: ['text']
   },
   {
