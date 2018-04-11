@@ -13,37 +13,31 @@ let attachments = [
   {
     title: 'CB - Top Dollar',
     color: '#2FA44F',
-    text: 'Total: 16 MIL/PER YR - Salary 11 MIL/PER YR Bonus 5 MIL\n',
+    text: 'Total: 15 MIL/PER YR - Salary 10 MIL/PER YR Bonus 5 MIL\n',
     mrkdwn_in: ['text']
   },
   {
     title: 'LB - Top Dollar',
     color: '#2FA44F',
-    text: 'Total: 16 MIL/PER YR - Salary 11 MIL/PER YR Bonus 5 MIL\n',
+    text: 'Total: 19 MIL/PER YR - Salary 13.3 MIL/PER YR Bonus 5.7 MIL\n',
     mrkdwn_in: ['text']
   },  
   {
     title: 'DT - Top Dollar',
     color: '#2FA44F',
-    text: 'Total: 14 MIL/PER YR - Salary 10 MIL/PER YR Bonus 4 MIL\n',
+    text: 'Total: 17.1 MIL/PER YR - Salary 12 MIL/PER YR Bonus 5.1 MIL\n',
     mrkdwn_in: ['text']
   },
   {
     title: 'DE - Top Dollar',
     color: '#2FA44F',
-    text: 'Total: 12 MIL/PER YR - Salary 8.5 MIL/PER YR Bonus 3.5 MIL\n',
+    text: 'Total: 17.1 MIL/PER YR - Salary 12 MIL/PER YR Bonus 5.1 MIL\n',
     mrkdwn_in: ['text']
   },
   {
-    title: 'FS - Top Dollar',
+    title: 'S - Top Dollar',
     color: '#2FA44F',
-    text: 'Total: 5.5 MIL/PER YR - Salary 3.75 MIL/PER YR Bonus 1.5 MIL\n',
-    mrkdwn_in: ['text']
-  },
-  {
-    title: 'SS - Top Dollar',
-    color: '#2FA44F',
-    text: 'Total: 3.1 MIL/PER YR - Salary 2 MIL/PER YR Bonus 1.1 MIL\n',
+    text: 'Total: 13 MIL/PER YR - Salary 9.1 MIL/PER YR Bonus 3.9 MIL\n',
     mrkdwn_in: ['text']
   }
 ]
