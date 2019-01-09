@@ -13,7 +13,7 @@ let attachments = [
   {
     title: 'QB - Top Dollar',
     color: '#2FA44F',
-    text: 'Total: 28 MIL/PER YR - Salary 19.6 MIL/PER YR Bonus 8.4 MIL\n',
+    text: 'Total: 33.5 MIL/PER YR - Salary 23.5 MIL/PER YR Bonus 10 MIL\n',
     mrkdwn_in: ['text']
   },
   {
@@ -31,7 +31,7 @@ let attachments = [
   {
     title: 'WR - Top Dollar',
     color: '#2FA44F',
-    text: 'Total: 16.5 MIL/PER YR - Salary 11.5 MIL/PER YR Bonus 5 MIL\n',
+    text: 'Total: 18 MIL/PER YR - Salary 12.6 MIL/PER YR Bonus 5.4 MIL\n',
     mrkdwn_in: ['text']
   },
   {
