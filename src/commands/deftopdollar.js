@@ -17,9 +17,15 @@ let attachments = [
     mrkdwn_in: ['text']
   },
   {
-    title: 'LB - Top Dollar',
+    title: 'OLB - Top Dollar',
     color: '#2FA44F',
-    text: 'Total: 19 MIL/PER YR - Salary 13.3 MIL/PER YR Bonus 5.7 MIL\n',
+    text: 'Total: 23.5 MIL/PER YR - Salary 16.4 MIL/PER YR Bonus 7.1 MIL\n',
+    mrkdwn_in: ['text']
+  },
+  {
+    title: 'MLB - Top Dollar',
+    color: '#2FA44F',
+    text: 'Total: 12.3 MIL/PER YR - Salary 8 MIL/PER YR Bonus 4.3 MIL\n',
     mrkdwn_in: ['text']
   },  
   {
@@ -31,13 +37,13 @@ let attachments = [
   {
     title: 'DE - Top Dollar',
     color: '#2FA44F',
-    text: 'Total: 17.1 MIL/PER YR - Salary 12 MIL/PER YR Bonus 5.1 MIL\n',
+    text: 'Total: 22.5 MIL/PER YR - Salary 15.75 MIL/PER YR Bonus 6.75 MIL\n',
     mrkdwn_in: ['text']
   },
   {
     title: 'S - Top Dollar',
     color: '#2FA44F',
-    text: 'Total: 13 MIL/PER YR - Salary 9.1 MIL/PER YR Bonus 3.9 MIL\n',
+    text: 'Total: 12 MIL/PER YR - Salary 8 MIL/PER YR Bonus 4 MIL\n',
     mrkdwn_in: ['text']
   }
 ]
