@@ -13,7 +13,7 @@ let attachments = [
   {
     title: 'QB - Top Dollar',
     color: '#2FA44F',
-    text: 'Total: 33.5 MIL/PER YR - Salary 23.5 MIL/PER YR Bonus 10 MIL\n',
+    text: 'Total: 35 MIL/PER YR - Salary 25 MIL/PER YR Bonus 10 MIL\n',
     mrkdwn_in: ['text']
   },
   {
