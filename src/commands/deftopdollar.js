@@ -25,25 +25,25 @@ let attachments = [
   {
     title: 'MLB - Top Dollar',
     color: '#2FA44F',
-    text: 'Total: 12.3 MIL/PER YR - Salary 8 MIL/PER YR Bonus 4.3 MIL\n',
+    text: 'Total: 17 MIL/PER YR - Salary 12 MIL/PER YR Bonus 5 MIL\n',
     mrkdwn_in: ['text']
   },  
   {
     title: 'DT - Top Dollar',
     color: '#2FA44F',
-    text: 'Total: 17.1 MIL/PER YR - Salary 12 MIL/PER YR Bonus 5.1 MIL\n',
+    text: 'Total: 22.5 MIL/PER YR - Salary 15 MIL/PER YR Bonus 7.5 MIL\n',
     mrkdwn_in: ['text']
   },
   {
     title: 'DE - Top Dollar',
     color: '#2FA44F',
-    text: 'Total: 22.5 MIL/PER YR - Salary 15.75 MIL/PER YR Bonus 6.75 MIL\n',
+    text: 'Total: 21 MIL/PER YR - Salary 15 MIL/PER YR Bonus 6 MIL\n',
     mrkdwn_in: ['text']
   },
   {
     title: 'S - Top Dollar',
     color: '#2FA44F',
-    text: 'Total: 12 MIL/PER YR - Salary 8 MIL/PER YR Bonus 4 MIL\n',
+    text: 'Total: 14 MIL/PER YR - Salary 9 MIL/PER YR Bonus 5 MIL\n',
     mrkdwn_in: ['text']
   }
 ]
