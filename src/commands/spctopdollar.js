@@ -13,7 +13,7 @@ let attachments = [
   {
     title: 'Kicker - Top Dollar',
     color: '#2FA44F',
-    text: 'Total: 4.3 MIL/PER YR - Salary 3 MIL/PER YR Bonus 1.3 MIL\n',
+    text: 'Total: 5 MIL/PER YR - Salary 3 MIL/PER YR Bonus 2 MIL\n',
     mrkdwn_in: ['text']
   },
   {
